@@ -1,0 +1,543 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 1220px;
+    margin: 0 auto;
+}
+
+header{
+  display: flex;
+  justify-content: space-evenly;
+padding-top: 35px;
+align-items: center;
+}
+ul{
+  display: flex;
+  gap: 60px;
+}
+ul li a{
+  text-decoration: none;
+  color: black;
+}
+ul li {
+
+  list-style: none;
+}
+.btn{
+  
+  width: 100px;
+height: 40px;
+border-radius: 40px;
+background: #39DB4A;
+color: white;
+gap: 5px;
+text-align: center;
+border: none;
+}
+.btnbox{
+  display: flex;
+  gap: 51px;
+  align-items: center;
+}
+.asd{
+  margin-top: 140px;
+  display: flex;
+align-items: center;
+}
+.wer h1{
+  font-family: Inter;
+font-weight: 800;
+font-style: Extra Bold;
+font-size: 62px;
+line-height: 146%;
+letter-spacing: 0%;
+
+}
+.wer span{
+color: #39DB4A;
+font-family: Inter;
+font-weight: 800;
+font-style: Extra Bold;
+font-size: 62px;
+line-height: 146%;
+letter-spacing: 0%;
+
+}
+.wer p{
+  font-family: Inter;
+font-weight: 500;
+font-style: Medium;
+font-size: 26px;
+color: #4A4A4A;
+line-height: 130%;
+letter-spacing: 0%;
+padding-top: 30px;
+
+}
+.btndiv{
+  display: flex;
+  gap: 35px;
+  margin-top: 20px;
+  align-items: center;
+}
+.btn1{
+  width: 190px;
+height: 60px;
+top: 728px;
+left: 153px;
+opacity: 1;
+border: none;
+border-radius: 40px;
+background: #39DB4A;
+box-shadow: -2px 22px 38px 0px #8EFF9A80;
+color: white;
+font-size: medium;
+}
+.btn2{
+  width: 50px;
+height: 50px;
+border-radius: 50%;
+border: none;
+background: white;
+box-shadow: 6px 27px 34px 0px #0000001A;
+
+}
+.kom{
+  width: 650px;
+height: 650px;
+top: 134px;
+left: 837.29px;
+
+}
+/* .s{
+  width: 600px;
+  height: 600px;
+  border-radius: 50%;
+  position:;
+  background-color: #39DB4A;
+  
+} */
+ .card{
+  width: 326px;
+height: 200px;
+align-items:center;
+border-radius: 40px;
+box-shadow: 2px 10px 30px 0px #0000001A;
+
+ }
+ .cardota{
+  display: flex;
+  gap: 38px;
+ }
+.section2{
+margin-top: 200px;
+text-align: center;
+}
+.section2 h4{
+  font-family: Inter;
+font-weight: 700;
+font-style: Bold;
+font-size: 30px;
+line-height: 100%;
+letter-spacing: 17.5%;
+text-transform: uppercase;
+color: #FF6868;
+padding-bottom: 30px;
+}
+.section2 h2{
+font-family: Inter;
+font-weight: 700;
+font-style: 40px;
+font-size: 60px;
+color: black;
+line-height: 100%;
+letter-spacing: 0%;
+text-align: center;
+padding-bottom: 15px;
+}
+
+
+.ota{
+  display: flex;
+  gap: 40px; ;
+
+}
+
+
+.section4{
+  margin-top: 200px;
+}
+.card3{
+  width: 446px;
+height: 353px;
+top: 2225px;
+left: 155px;
+opacity: 1;
+border-radius: 40px;
+box-shadow: 2px 9px 42px 0px #00000014;
+align-items: center;
+}
+
+
+.section4 h4{
+  color: #FF6868;
+    font-family: Inter;
+font-weight: 700;
+font-style: Bold;
+font-size: 20px;
+padding-bottom: 20px;
+line-height: 100%;
+letter-spacing: 17.5%;
+text-transform: uppercase;
+
+}
+
+.section4 h1{
+  padding-bottom: 20px;
+}
+
+.card3 h2,p{
+  padding-left: 20px;
+} 
+
+.mijozlar-fikri {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 60px 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+  gap: 40px;
+  flex-wrap: wrap;
+  font-family: 'Segoe UI', sans-serif;
+  margin-top: 200px ;
+}
+
+.chap-qism {
+  flex: 1;
+  min-width: 300px;
+  position: relative;
+}
+
+.chef-konteyner {
+  position: relative;
+  display: inline-block;
+}
+
+.chef-rasmi {
+  width: 300px;
+  border-radius: 20px;
+  background: #e6ffe6;
+}
+
+.emoji {
+  position: absolute;
+  font-size: 24px;
+}
+
+.emoji.bir {
+  left: -20px;
+  top: 40px;
+}
+
+.emoji.ikki {
+  right: -10px;
+  bottom: 60px;
+}
+
+.chef-label {
+  position: absolute;
+  bottom: -20px;
+  left: 20px;
+  background: #fff;
+  padding: 8px 16px;
+  border-radius: 20px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  font-weight: 600;
+  font-size: 14px;
+}
+
+.ong-qism {
+  flex: 1;
+  min-width: 300px;
+}
+
+.kichik-sarlavha {
+  text-transform: uppercase;
+  font-size: 12px;
+  color: #ec4899;
+  font-weight: bold;
+  letter-spacing: 2px;
+  margin-bottom: 10px;
+}
+
+.asosiy-sarlavha {
+  font-size: 28px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  line-height: 1.4;
+}
+
+.fikr-matni {
+  font-size: 16px;
+  color: #555;
+  line-height: 1.6;
+  margin-bottom: 25px;
+}
+
+.baholash-qismi {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.avatarlar {
+  display: flex;
+}
+
+.avatarlar img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  border: 2px solid #fff;
+  box-shadow: 0 0 0 2px #ddd;
+  margin-left: -10px;
+}
+
+.baho-info strong {
+  display: block;
+  font-size: 14px;
+  margin-bottom: 4px;
+}
+
+.yulduzlar {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  color: #facc15;
+  font-weight: 600;
+}
+
+.izoh {
+  color: #888;
+  font-size: 13px;
+}
+
+
+
+
+
+
+
+
+
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.container {
+  max-width: 1220px;
+  margin: 0 auto;
+}
+.o {
+  font-family: Inter;
+  font-weight: 700;
+  font-style: Bold;
+  font-size: 20px;
+  line-height: 100%;
+  letter-spacing: 17.5%;
+  text-transform: uppercase;
+  padding-bottom: 53px;
+  color: #ff6868;
+}
+.c {
+  font-family: Inter;
+  font-weight: 700;
+  font-style: Bold;
+  font-size: 60px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  color: #000000;
+  width: 729px;
+}
+.r {
+  font-family: Inter;
+  font-weight: 500;
+  font-style: Medium;
+  font-size: 26px;
+  line-height: 160%;
+  letter-spacing: 0%;
+  width: 652px;
+  color: #555555;
+  padding-top: 50px;
+  padding-bottom: 53px;
+}
+.btn6 {
+  padding: 25px 60px;
+  font-family: Inter;
+  font-weight: 600;
+  font-style: Semi Bold;
+  font-size: 26px;
+  background: #39db4a;
+  border-radius: 40px;
+  border: none;
+  line-height: 100%;
+  letter-spacing: 0%;
+  color: #ffffff;
+}
+.ca {
+  font-family: Inter;
+  font-weight: 700;
+  font-style: Bold;
+  font-size: 24px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  text-align: center;
+  text-transform: uppercase;
+  color: #5fe26c;
+  padding-top: 32px;
+}
+.de {
+  font-family: Inter;
+  font-weight: 600;
+  font-style: Semi Bold;
+  font-size: 20px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  text-align: center;
+  color: #90bd95;
+  width: 220px;
+  padding-top: 17px;
+  padding-left: 40px;
+}
+.card {
+  width: 277px;
+  height: 297px;
+  box-shadow: 7px 12px 43px 0px #00000024;
+  background: #ffffff;
+  border-radius: 30px;
+  text-align: center;
+}
+.img {
+  padding-top: 45px;
+}
+.right {
+  display: flex;
+  align-items: center;
+  gap: 36px;
+}
+.card {
+  margin-top: 37px;
+}
+.ota-ohiri {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+  
+  margin-bottom: 50px;
+}
+/* App.css */
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #f3f3f3;
+}
+
+.footer {
+  background-color: #ffffff;
+  padding: 60px 30px 30px;
+  color: #222;
+}
+
+.footer-container {
+  max-width: 1200px;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 40px;
+  justify-content: space-between;
+}
+
+.footer-col {
+  min-width: 180px;
+  flex: 1;
+  flex-wrap: wrap;
+}
+
+.footer-col h3 {
+  font-size: 16px;
+  margin-bottom: 20px;
+  font-weight: 600;
+}
+
+.footer-col ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-col ul li {
+  margin-bottom: 10px;
+}
+
+.footer-col ul li a {
+  text-decoration: none;
+  color: #444;
+  font-size: 14px;
+  transition: color 0.3s ease;
+}
+
+.footer-col ul li a:hover {
+  color: #4ade80;
+}
+
+.logo-section .logo {
+  font-size: 24px;
+  color: #22c55e;
+  font-weight: 700;
+}
+
+.logo-section p {
+  margin-top: 10px;
+  font-size: 14px;
+  color: #666;
+  max-width: 250px;
+}
+
+.social-icons {
+  margin-top: 25px;
+  display: flex;
+  gap: 15px;
+}
+
+.icon {
+  width: 32px;
+  height: 32px;
+  background-color: #e8f5e9;
+  color: #22c55e;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 14px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.icon:hover {
+  background-color: #bbf7d0;
+}
+
+.footer-bottom {
+  text-align: center;
+  padding-top: 30px;
+  font-size: 14px;
+  color: #666;
+  border-top: 1px solid #e0e0e0;
+  margin-top: 40px;
+}
